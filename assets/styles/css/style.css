@@ -2,8 +2,9 @@
   box-sizing: border-box;
 }
 
-:root {
-
+html {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -71,9 +72,14 @@ nav > a:active {
 
 /* ___________________________________________FEATURE CONTAINER________________________________________ */
 
-.feature-container {
-  height: 100%;
-  width: 100%;
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  padding: 50px;
+  background: whitesmoke;
 }
 
 /* _________________________________________________FOOTER_____________________________________________ */
