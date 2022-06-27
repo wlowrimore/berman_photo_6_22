@@ -23,7 +23,8 @@ header {
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
-  padding: 4px 30px;
+  margin: 25px 0;
+  padding: 20px 30px;
   width: 100%;
   border-bottom: 1px solid silver;
 }
@@ -75,9 +76,12 @@ nav > a:active {
 .gallery {
   display: flex;
   justify-content: center;
+  background: darkgray;
 }
 
 .image {
+  height: 95%;
+  margin: 40px 0;
   padding: 50px;
   background: whitesmoke;
 }
