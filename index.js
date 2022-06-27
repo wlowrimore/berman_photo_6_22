@@ -1,10 +1,11 @@
 $(document).ready(function () {
   var galleryImage = $(".gallery").find("img").first();
   var images = [
-    "./assets/images/Jaco-1.jpg",
-    "./assets/images/trainer-1.jpg",
-    "./assets/images/trainer-2.jpg",
-    "./assets/images/trainer-3.jpg",
+    "./assets/images/bw_country-guy.jpg",
+    "./assets/images/Gadd.jpg",
+    "./assets/images/r_b.jpg",
+    "./assets/images/drummer-hair.jpg",
+    "./assets/images/Peart.jpg"
   ];
 
   var i = 0;

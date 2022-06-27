@@ -16,17 +16,38 @@ body {
   padding: 0;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+  background: #000;
+  height: 100vh;
+  margin: 0 6%;
+  padding: 0;
+}
+
 /* ________________________________________________HEADER__________________________________________________ */
 
-header {
+/* header {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
-  margin: 25px 0;
+  margin-bottom: 25px;
   padding: 20px 30px;
   width: 100%;
   border-bottom: 1px solid silver;
+} */
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid silver;
+  margin-bottom: 20px;
 }
 
 .main-title {
@@ -34,7 +55,7 @@ header {
   flex-direction: column;
   flex-wrap: wrap;
   font-family: 'Cinzel Decorative', cursive;
-  font-size: 22px;
+  font-size: 32px;
   line-height: 0.9;
 }
 
@@ -47,7 +68,7 @@ header {
   margin: 0;
 }
 
-nav {
+/* nav {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 300;
@@ -55,35 +76,89 @@ nav {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
+} */
+/* _____________________________________________________________________________________________________ */
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* padding-left: 50px; */
+  width: 100%;
+  
+}
+
+nav {
+  /* background: skyblue; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 20%;
+  /* margin: 0 60px 0 20px; */
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 200;
 }
 
 nav > a {
+  display: flex;
+  width: 100px;
   text-decoration-line: none;
-  color: #000;
-  margin: 0 12px;
+  letter-spacing: 2px;
+  color: whitesmoke;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  line-height: 1.2;
 }
 
 nav > a:hover {
-  color: slateblue;
+  color: #92b4ff;
 }
 
 nav > a:active {
-  color: slateblue;
+  color: #92b4ff;
 }
 
 /* ___________________________________________FEATURE CONTAINER________________________________________ */
 
 .gallery {
   display: flex;
-  justify-content: center;
-  background: darkgray;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  /* margin-left: 40px; */
+  justify-content: space-around;
+  /* background: darkgray; */
+  width: 100%;
+  height: 100%;
 }
 
-.image {
-  height: 95%;
-  margin: 40px 0;
-  padding: 50px;
-  background: whitesmoke;
+/* .image {
+  display: block;
+  width: 100%;
+  position: relative;
+  left: 60px;
+} */
+
+img {
+  display: flex;
+  max-height: 600px;
+  max-width: auto;
+  /* margin-left: 20%; */
+}
+
+.menu-rt {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  width: 240px;
+  height: auto;
 }
 
 /* _________________________________________________FOOTER_____________________________________________ */
@@ -93,7 +168,9 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  padding: 4px 30px;
+  padding: 4px 0;
+  margin-top: 20px;
+  letter-spacing: 1px;
   width: 100%;
   border-top: 1px solid silver;
   position: relative;
@@ -102,4 +179,13 @@ footer {
 
 .footer-left {
   width: 400px;
+}
+
+.mailto {
+  text-decoration-line: none;
+  color: rgb(151, 174, 203);
+}
+
+.mailto:hover {
+  color: whitesmoke;
 }
