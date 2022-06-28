@@ -23,9 +23,24 @@ $(document).ready(function () {
   var i = 0;
   setInterval(function () {
     i = (i + 1) % images.length;
-    galleryImage.fadeOut(750, function () {
+    galleryImage.fadeOut(1000, function () {
       $(this).attr("src", images[i]);
-      $(this).fadeIn(750);
+      $(this).fadeIn(1000);
     });
   }, 5000);
+});
+
+$(document).ready(function () {
+  $("nav a").click(function (e) {
+    e.preventDefault();
+    var url = $(this).attr("href");
+    $.ajax({
+      type: "GET",
+      url: url,
+      success: function (data) {
+        $("#content").html(data);
+      },
+    });
+    return false;
+  });
 });
