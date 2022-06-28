@@ -19,9 +19,15 @@ body {
 
 .lv-title {
   display: flex;
-  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 100;
+  letter-spacing: 2px;
   justify-content: center;
-  color: whitesmoke;
+  margin: 0;
+  padding: 0;
+  color: silver;
 }
 
 .lv-container {
@@ -30,4 +36,44 @@ body {
   justify-content: space-around;
   width: 100%;
   height: 100%;
+}
+
+/* ________________________________________________CARDS_________________________________________________ */
+
+.lv-container {
+  width: 90vw;
+  height: auto;
+  padding: 0;
+}
+.lv-cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  gap: 40px;
+}
+
+.lv-card {
+  display: flex;
+  max-width: 900px;
+  max-height: 350px;;
+  flex-direction: column;
+  border: 1px solid silver;
+  overflow: hidden;
+}
+
+.lv-card-title {
+  text-align: center;
+  margin: 4px 0;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.lv-card-body img {
+  width: auto;
+  height: auto;
 }
