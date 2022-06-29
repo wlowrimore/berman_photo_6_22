@@ -3,8 +3,9 @@
 }
 
 html {
+  height: auto;
   margin: 0;
-  padding: 0;
+  
 }
 
 body {
@@ -16,8 +17,23 @@ body {
   margin: 0 6%;
   padding: 0;
 }
+/* .body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll;
+}
+
+.body::-webkit-scrollbar {
+  display: none;
+}  */
 
 /* ________________________________________________HEADER__________________________________________________ */
+
+.wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 
 header {
   display: flex;
@@ -25,9 +41,10 @@ header {
   align-items: flex-start;
   justify-content: flex-start;
   width: 100%;
+  background: #000;
   padding-bottom: 20px;
   border-bottom: 1px solid silver;
-  margin-bottom: 12px;
+  padding-bottom: 12px;
 }
 
 .main-title {
@@ -59,11 +76,11 @@ header {
   margin: 0;
 }
 
-.home-page {
+/* #home-page {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-}
+} */
 
 .main-container {
   display: flex;
@@ -75,8 +92,12 @@ nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  background: #000;
   justify-content: center;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  border-bottom: 2px solid black;
+  border-radius: 15px;
 }
 
 nav > a {
@@ -88,8 +109,8 @@ nav > a {
   font-weight: 200;
   letter-spacing: 3px;
   color: whitesmoke;
-  padding: 10px 0;
-  margin: 0 28px 14px 28px;
+  padding: 0;
+  margin: 0 28px 0px 28px;
   line-height: 1.2;
 }
 
@@ -109,6 +130,7 @@ nav > a:active {
   justify-content: space-around;
   width: 100%;
   height: 100%;
+  /* overflow-y: scroll; */
 }
 
 .small-image {
@@ -125,17 +147,33 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  padding: 4px 0;
-  margin-top: 20px;
+  /* padding: 0px 0; */
+  background: #000;
+  /* margin-top: 20px; */
   letter-spacing: 1px;
   width: 100%;
   border-top: 1px solid silver;
-  position: relative;
-  top: 0;
+  position: sticky;
+  bottom: 0;
+  z-index: 1000;
 }
 
 .footer-left {
   width: 400px;
+}
+
+.footer-left p{
+  font-size: 12px;
+  margin-top: 4px;
+  letter-spacing: 2px;
+}
+
+/* footer p {
+  margin: 2px 0 2px 0;
+} */
+
+footer h4 {
+  margin: 8px 0 0px 0;
 }
 
 .mailto {
