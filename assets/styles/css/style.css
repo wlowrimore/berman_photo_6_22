@@ -76,6 +76,7 @@ nav {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 nav > a {
@@ -100,16 +101,6 @@ nav > a:active {
   color: #92b4ff;
 }
 
-/* .material-symbols-outlined {
-  font-size: 24px;
-  margin-top: 8px;
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 100,
-  'GRAD' 0,
-  'opsz' 48
-} */
-
 /* ___________________________________________FEATURE CONTAINER________________________________________ */
 
 .gallery {
@@ -120,10 +111,11 @@ nav > a:active {
   height: 100%;
 }
 
-img {
+.small-image {
   display: flex;
   max-height: 700px;
   max-width: auto;
+  cursor: pointer;
 }
 
 /* _________________________________________________FOOTER_____________________________________________ */
