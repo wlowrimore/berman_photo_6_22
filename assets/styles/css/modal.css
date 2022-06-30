@@ -16,15 +16,26 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1000;
+  
 
   display: none;
 }
 
-/* #modal:backdrop {
-  background: #000;
-  width: 800px;
-  height: 800px;
+/* .bg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100%;
+  height: 100%;
+  opacity: 20%;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(15px);
 } */
+
+.custom-modal-backdrop {
+  background: rgba(0,0,0,0.7);
+}
 
 #image_show_area {
   width: 100%;
