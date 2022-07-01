@@ -11,8 +11,8 @@
 #modal {
   background: #000;
   text-align: center;
-  position: absolute;
-  top: 50%;
+  position: fixed;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1000;
