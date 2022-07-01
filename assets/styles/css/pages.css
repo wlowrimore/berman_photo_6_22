@@ -88,3 +88,27 @@ body {
   opacity: 50%;
   transition: .2s;
 }
+
+/* ________________________________________ABOUT______________________________________________ */
+
+.about-title {
+  text-align: center;
+  margin: 12px 0 20px 0;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 22px;
+  color: #92b4ff;
+  letter-spacing: 1px;
+}
+
+.about-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 20%;
+}
+
+.about-text > p {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
