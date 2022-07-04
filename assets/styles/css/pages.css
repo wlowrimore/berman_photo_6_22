@@ -112,3 +112,59 @@ body {
   letter-spacing: 1px;
   font-weight: 200;
 }
+
+/* _________________________________CONTACT________________________________ */
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.contact-container h1 {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: #92b4ff;
+  margin: 0 0 15px 0;
+}
+
+.contact-container h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  letter-spacing: 1px;
+  width: 45%;
+}
+
+.contact-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.email,
+.phone,
+.error {
+  margin: 8px 0;
+}
+
+.email a,
+.phone a,
+.error a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  text-decoration-line: none;
+  color: whitesmoke;
+  margin: 30px 0;
+}
+
+.email a:hover,
+.phone a:hover,
+.error a:hover {
+  color: #92b4ff;
+  text-decoration-line: underline;
+  transition: .3s;
+}
