@@ -168,3 +168,15 @@ body {
   text-decoration-line: underline;
   transition: .3s;
 }
+
+.quote-cont {
+  display: flex;
+  flex-direction: column;
+  max-width: 25%;
+  background: pink;
+  color: black;
+}
+
+.quotes {
+  display: none;
+}
