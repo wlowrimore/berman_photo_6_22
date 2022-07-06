@@ -117,25 +117,36 @@ body {
 
 .contact-container {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   flex-wrap: wrap;
-  justify-content: center;
+  height: 100%;
+  /* width: 50%; */
+  /* float: left; */
+  justify-content: space-between;
   margin: 50px 0;
 }
 
+.contact-left {
+  width: 50%;
+  height: 32em;
+  margin-bottom: 50px;
+}
+
 .contact-container h1 {
+  display: flex;
+  flex-direction: column;
   font-family: 'Cinzel Decorative', cursive;
   font-size: 24px;
   letter-spacing: 2px;
   color: #92b4ff;
-  margin: 0 0 15px 0;
+  /* margin: 0 0 15px 0; */
 }
 
 .contact-container h3 {
   font-family: 'Poppins', sans-serif;
   font-weight: 200;
   letter-spacing: 1px;
-  width: 45%;
+  width: 50%;
 }
 
 .contact-options {
@@ -169,14 +180,44 @@ body {
   transition: .3s;
 }
 
+/* .right-cont {
+  background: silver;
+  width: 100%;
+} */
+
 .quote-cont {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
-  max-width: 25%;
-  background: pink;
-  color: black;
+  align-items: center;
+  /* width: 50%; */
+  margin-right: 0;
+  float: right;
+  background: transparent;
+  color: whitesmoke;
 }
 
-.quotes {
-  display: none;
+.quote-title {
+  display: flex;
+  margin: 32px 0;
+}
+
+.quote-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* width: 42%; */
+  font-family: 'Poppins', sans-serif;
+  color: whitesmoke;
+  font-weight: 200;
+  letter-spacing: 2px;
+  text-decoration-style: italic;
+  font-size: 16px;
+
+}
+
+#quotes {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
 }
