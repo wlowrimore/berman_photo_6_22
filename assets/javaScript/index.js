@@ -1,3 +1,4 @@
+// looks in doc to insert the listed images (slideshow homepage)
 $(document).ready(function () {
   var galleryImage = $(".gallery").find("img").first();
   var images = [
@@ -20,6 +21,7 @@ $(document).ready(function () {
     "./assets/images/hotel-room.jpg",
   ];
 
+  // image slideshow loop
   var i = 0;
   setInterval(function () {
     i = (i + 1) % images.length;
@@ -30,6 +32,7 @@ $(document).ready(function () {
   }, 5000);
 });
 
+// nav links for pages
 $(document).ready(function () {
   $("nav a").click(function (e) {
     e.preventDefault();
@@ -44,5 +47,3 @@ $(document).ready(function () {
     return false;
   });
 });
-
-

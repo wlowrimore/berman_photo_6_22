@@ -1,0 +1,94 @@
+@media screen and (max-width: 1160px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    width: 100%;
+  }
+
+  html {
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .header,
+  .main-title {
+    width: 100vw;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .sayre-title,
+  .photography-title {
+    font-size: 34px;
+    text-align: center;
+  }
+
+  .wrapper nav {
+    display: block;
+  }
+
+  .wrapper nav a {
+    margin: 10px;
+  }
+
+  .main-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+
+  .gallery {
+    width: 100%;
+    position: relative;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .contact-container {
+    display: flex; 
+    flex-wrap: wrap;
+    width: 100vw;
+    margin: 40px;
+  }
+  
+  #content .contact-left h1,
+  #content article h1 {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  #content h3 {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  #content .contact-left {
+    padding: 0;
+  }
+
+  .contact-left {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .quote-box {
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+    display: none;
+    bottom: 0;
+    width: 100vw;
+    padding-left: 20px;
+  }
+}
