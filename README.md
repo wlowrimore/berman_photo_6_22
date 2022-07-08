@@ -17,8 +17,12 @@ This is a mock website for a client and friend of mine. I built it as a SEO usin
 
 No installation is required.
 
-<video width="800px" controls="true" src="./assets/videos/s_joan_phtgrphy.mp4"></video>
-<video width="800px" controls="true" src="./assets/videos/s_joan_phtgrphy_site_tour.mp4"></video>
+<video width="800px" controls="true" src="./assets/videos/s_joan_phtgrphy.mp4"></video><br>
+<video width="800px" controls="true" src="./assets/videos/s_joan_phtgrphy_site_tour.mp4"></video><br><br>
+
+<a href="https://wlowrimore.github.io/berman_photo_6_22/index.html">Live Site</a><br>
+<a href="https://drive.google.com/file/d/1DBM8aAMYUghZqbJ9i71wP_h3TQein9Eb/view">Landing Page</a><br>
+<a href="https://drive.google.com/file/d/12c-UQMoX0vT7m6pEZ4gUIgSmuetGea5i/view">Site Tour</a>
 
 ### License:
 
