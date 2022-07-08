@@ -1,36 +1,30 @@
 # Sayre Joan Photography SEO
 
-![badge](https://img.shields.io/badge/license-MIT-purple)<br />
+![badge](https://img.shields.io/badge/license-MIT-skyblue)<br />
 
 ## Description
 This is a mock website for a client and friend of mine.  I built it as a SEO using only HTML, Vanilla CSS, and Vanilla JavaScript.  I implemented a little jQuery so the site would appear to be a one page application. The code is clean and uses best practices (with the exception of the image files being in strict jpeg format).  It scored a SEO 100 when I ran a Lighthouse audit, and the UI is polished and mobile responsive.  I wanted to get as close to a "React.js" functionality as possible, and feel very good about the outcome.
 
   ## Table of Contents
   - [Installation](#installation)
-  - [Usage](#usage)
   - [License](#license)
-  - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
 
   ### Installation:
-  no installation required
-  
-  ### Usage:
-  
+  No installation is required.
+ 
+  <video width="800px" controls="true" src="./assets/videos/s_joan_phtgrphy.mp4"></video>
 
   ### License:
   This project is licensed under:<br />
-  MIT
-
-  ### Contributing:
-  
+  <h2 style="color: skyblue;">MIT</h2>
 
   ### Tests:
-  
+  I used Lighthouse to run a performance audit on this SEO.  The SEO result was 100%.
 
   ### Questions:
-  You may email me any questions or concerns.<br />
+  You may email me any questions or comments.<br />
 
   This project was built using the following languages:<br />
   HTML, CSS, JavaScript, jQuery  

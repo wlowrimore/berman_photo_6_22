@@ -2,7 +2,7 @@ $(document).ready(function () {
   var galleryQuote = $(".quote-cont").find("p").first();
   let quotes = [
     "“Sayre’s unbridled enthusiasm for the world of drumming is totally undeniable and the results speak for themselves…she is a real pleasure to work with!”   -Roger Taylor (Duran Duran)",
-    ,
+
     "“My experience with Sayre was absolutely nothing short of an amazing, professional, and fun. She knew exactly what she was going for and how to get it. We had a short opportunity of time and she took full advantage of that, getting everything we needed.”   -Troy Luccketta (Tesla)",
 
     "“Sayre is a great photographer but in addition to that I was impressed with her attention to detail and concern for authenticity. We did our photo session on stage before our set and she worked efficiently and unobtrusively to get the job done. AND…she started taking ddrum lessons several years ago so that she could become even better at all of this. How’s that for dedication!”   -Ray Luzier (KoRn)",
@@ -18,9 +18,9 @@ $(document).ready(function () {
 
   setInterval(function () {
     let index = count++ % quotes.length;
-    galleryQuote.fadeOut(1000, function () {
+    galleryQuote.fadeOut(2000, function () {
       $(this).html(quotes[index]);
-      $(this).fadeIn(1500);
+      $(this).fadeIn(2000);
     });
-  }, 10000);
+  }, 8000);
 });
